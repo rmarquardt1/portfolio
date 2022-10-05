@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <svg
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svgDocs"
+   version="1.1"
+   width="100"
+   height="100"
+   viewBox="0 0 47.082043 38.898788">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <g
+     transform="translate(-46.808589,-50.90532)"
+     id="layer2">
+    <path
+       style="fill:#d9b38c;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 50.009766,59.285156 c -0.19717,0.01517 -0.400664,0.07063 -0.578125,0.128906 -0.286979,0.09424 -0.511814,0.325279 -0.736329,0.527344 -0.452758,0.407486 -0.897458,0.845329 -1.214843,1.365235 -0.323738,0.530313 -0.671875,1.740234 -0.671875,1.740234 0,0 2.446951,18.463598 3.623047,25.945313 0.1167,0.742383 1.379367,0.739716 2.130859,0.736328 14.913846,-0.06722 23.916242,0.100936 35.761719,0.07227 0.593505,-0.0014 1.439772,-0.243628 1.580078,-0.820312 1.733203,-7.123806 3.986328,-25.986328 3.986328,-25.986328 0,0 -0.428758,-1.462559 -0.880859,-2.054688 -0.371982,-0.487194 -0.864346,-0.932445 -1.439454,-1.144531 -0.373298,-0.137664 -0.70215,-0.375898 -1.191406,-0.04102 -0.981379,0.671736 -0.254202,2.415083 -0.52539,2.988282 -0.363341,0.767977 -37.569958,0.728782 -38.896485,-0.03125 -0.296338,-0.169787 0.09621,-1.618036 -0.05859,-2.404297 -0.06248,-0.317324 -0.07823,-0.724439 -0.345704,-0.90625 -0.154476,-0.105002 -0.345798,-0.130409 -0.542968,-0.115235 z M 60.964844,72.136719 79.511719,72.25 l 0,6.888672 -2.94336,0 0,-3.72461 -12.736328,0 0,3.798829 -2.867187,0 0,-7.076172 z"
+       id="path4148" />
+    <path
+       style="fill:#eded92;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 53.918706,56.290613 32.877902,0.01317 0,4.108092 -32.864735,0 z"
+       id="doc1" />
+    <path
+       style="fill:#eded92;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.382306,50.905326 0.05267,3.180337 23.779532,0.03724 0,-3.217578 z"
+       id="doc2" />
+  </g>
+</svg>

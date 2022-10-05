@@ -1,0 +1,260 @@
+.extended-hills
+{
+	height: 220px;
+}
+
+.extended-footer:after {
+display: block;
+content: "";
+width: 100%;
+height: 100px;
+position: absolute;
+top: -33px;
+left: 0;
+background: url("../img/footer-grass.png") repeat-x;
+}
+
+.extended-description h5
+{
+	font-style: normal;
+font-variant: normal;
+font-family: "severance_the_sequelbold", Georgia, serif;
+font-size: 30px;
+font-size: 3rem;
+line-height: 55px;
+margin-bottom: 12px;
+color: #191919;
+font-weight: bold;
+}
+
+.extended-description h4
+{
+	font-style: normal;
+font-variant: normal;
+font-family: "severance_the_sequelregular", Georgia, serif;
+font-size: 24px;
+font-size: 2.4rem;
+line-height: 1.2;
+margin-bottom: 12px;
+color: #191919;
+font-weight: normal;
+text-transform: capitalize;
+
+}
+
+.extended-description h2
+{
+	font-style: normal;
+font-variant: normal;
+font-weight: bold;
+font-family: "severance_the_sequelmedium", Georgia, serif;
+font-size: 21px !important;
+font-size: 2.1rem !important;
+line-height:2.1;
+margin-bottom: 0px;
+color: #aeaeae;
+text-align:center;
+}
+
+
+.extended-description h3
+{
+	font-style: normal;
+font-variant: normal;
+font-family: "severance_the_sequelmedium", Georgia, serif;
+font-size: 16px;
+font-size: 1.6rem;
+line-height: 1.6;
+margin-bottom: 12px;
+color: #191919;
+font-weight: bold;
+text-align:center;
+}
+
+.extended-description h6
+{
+	font-style: normal;
+font-variant: normal;
+font-family: "severance_the_sequelbold", Georgia, serif;
+font-size: 18px;
+font-size: 1.8rem;
+line-height: 1.8;
+margin-bottom: 12px;
+color: #191919;
+font-weight: bold;
+text-align:left;
+}
+
+
+
+
+.extended-description p
+{
+font-size: 18px;
+font-size: 1.8rem;
+line-height:30px;
+margin-bottom:24px;
+font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+
+}
+
+.extended-description a
+{
+    border-bottom:0px;
+    font-weight:bold;
+    
+}
+
+
+
+.extended-description img
+{
+ 
+text-align: center;
+vertical-align: middle;
+margin-bottom:20px;
+
+}
+
+.extended-audio
+{
+    
+}
+
+ul.ubaplayer-controls
+{
+margin: 0 auto;
+padding: 0;
+list-style: none;
+text-align: center;
+display: table;
+vertical-align: middle;
+}
+
+ul.ubaplayer-controls li
+{
+background: #fff;
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+border-bottom: none;
+float: left;
+padding: 3px 10px;
+}
+ul.ubaplayer-controls li a
+{
+    border:none;
+    color:#3781a3;
+    font-weight:bold;
+    
+}
+
+.custom-pad
+{
+    padding:30px;
+}
+.img-full-width
+{
+    width:100%;
+}
+
+.extended-list
+{
+    font-size: 18rem;
+font-size: 18px;
+font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+}
+
+.text-center
+{
+    text-align:center;
+}
+
+
+.clearimages {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearmobileimages 
+{
+    display:none;
+}
+
+.m_img
+{
+    display:none;
+}
+
+
+
+@media (max-width: 768px) 
+{
+    
+    .main-nav a.b_color {
+color: #000 !important;
+}
+
+
+  .main-nav a.b_color img.lock
+  {
+      display:none  !important;
+}
+.linked_section
+{
+    padding-top:70px;
+}
+
+img.left-img
+{
+    float:left;
+    width:47%;
+}
+
+img.right-img
+{
+    float:right;
+    width:47%;
+   
+
+}
+
+
+.clearmobileimages 
+{
+    clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearimages
+{
+    display:none !important;
+}
+
+
+.d_img
+{
+    display:none;
+}
+
+.m_img
+{
+    display:block;
+}
+
+  
+}
+
+.center_align
+{
+    text-align:center;
+}
+
+
+

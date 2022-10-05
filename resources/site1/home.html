@@ -1,0 +1,530 @@
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="html" omit-xml-declaration="yes" indent="yes"/>
+  <xsl:template match="/Candidate">
+    <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html></xsl:text>-->
+    <html>
+      <!--[if lt IE 7]>      <html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+      <!--[if IE 7]>         <html class="lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+      <!--[if IE 8]>         <html class="lt-ie10 lt-ie9"> <![endif]-->
+      <!--[if IE 9]>         <html class="lt-ie10"> <![endif]-->
+      <!--[if gt IE 9]><!-->
+      <!--<html itemscope itemtype="http://schema.org/Article">-->
+      <!--<![endif]-->
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <title>Welcome</title>
+          
+          
+          
+          
+          
+        <link type="text/css" rel="stylesheet" media="all" href="css/new-screen.css" />
+        <!--[if !IE]><!-->
+
+        <!--<![endif]-->
+        <link type="text/css" rel="stylesheet" media="all" href="css/custom.css" />
+<!--        <link href="OCContent/125/modules/bnj-templates/css/audioplayer.css" rel="stylesheet" type="text/css" />-->
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Serve blessed stylesheets with media queries for IE9 -->
+        <!--[if IE 9]>
+    <link href="OCContent/125/modules/bnj-templates/css/ie9-screen.css" rel="stylesheet" media="screen, projection" type="text/css" />
+    <link href="OCContent/125/modules/bnj-templates/css/ie9Overflow.css" rel="stylesheet" media="screen, projection" type="text/css" />
+    <![endif]-->
+    
+        <!-- Serve blessed stylesheets without media queries for IE8 and below -->
+        <!--[if lt IE 9]>
+    <link href="OCContent/125/modules/bnj-templates/css/nomediaqueries.css" rel="stylesheet" media="screen" type="text/css" />
+<![endif]-->
+               
+        <!-- This needs to go in head per Google Analytics ticket #997 -->
+<!--          <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+          
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>  
+        
+        <script type="text/javascript" src="js/container-tags.js"></script>
+        <script type="text/javascript" src="js/modernizr.js"></script>
+      </head>
+      <body>
+        <div class="bodywrapper">
+          <div class="general franchise wrapper">
+            <div class="widthWrapper">
+              <header class="page-header" role="banner" id="top">
+                <div class="utility-nav">
+                  <div class="closest-scoop-shop geolocator">
+
+                    <!-- accordion-content -->
+                    <div class="accordion-button-up" style="padding:0px;">
+                      <nav role="navigation" class="main-nav-sticky">
+                        <ul>
+                            <li id="navlink-welcome" class="active">
+                                <a href="welcome.html" style="font-size:16px;text-transform:none;">Welcome</a>
+                            </li>
+                          <li id="navlink-why-tapsnap" class="not-active">
+                                  <a href="whytapsnap.html" style="font-size:16px;text-transform:none;">Why TapSnap?</a>
+                          </li>
+                            <li id="navlink-the-fundamentals" class="not-active">
+                                <a href="thefundamentals.html" style="margin-right:170px;font-size:16px;text-transform:none;">The Fundamentals</a>
+                            </li>
+                          
+                          <!--<xsl:choose>
+                            <xsl:when test="@RMStatus[.&gt;3]">
+                              <li id="navlink-tapsnap-a-to-z">
+                                <a href="/?s=4&amp;a=91">TapSnap A to Z</a>
+                              </li>
+                            </xsl:when>
+                            <xsl:otherwise>-->
+                            <li id="navlink-tapsnap-a-to-z" class="not-active">
+                                <a href="#" class="b_color" style="margin-left:140px;font-size:16px;text-transform:none;padding-left:0px;padding-right:30px;position:relative;right:30px;">
+                                    TapSnap A to Z <img src="img/lock.png" style="position:relative;bottom:18px;left:125px;" class="lock" alt="lock" />
+                                </a>
+                            </li>
+                            <!--</xsl:otherwise>
+                          </xsl:choose>-->
+
+                          <!--<xsl:choose> 
+                            <xsl:when test="@RMStatus[.&gt;4]">
+                              <li id="navlink-joining-the-tapsnap-team">
+                                <a href="/?s=5&amp;a=92">JOINING OUR FAMILY</a>
+                              </li>
+                            </xsl:when>
+                            <xsl:otherwise>-->
+                            <li id="navlink-joining-the-tapsnap-team" class="not-active">
+                                <a href="#" class="b_color" style="font-size:16px;text-transform:none;padding-left:0px;padding-right:40px;">
+                                    Joining The TapSnap Team <img src="img/lock.png" style="position:relative;bottom:18px;left:218px;" class="lock" alt="lock" />
+                                </a>
+                            </li>
+                            <!--</xsl:otherwise>
+                          </xsl:choose>-->
+                          
+                          
+                        </ul>
+                      </nav>
+                      <!-- .country-nav -->
+                    </div>
+                    <!--.accordion-button-up -->
+                  </div>
+                  <!-- geolocator -->
+                </div>
+                
+
+
+
+                <nav role="navigation" class="main-nav visible" style="padding-top:100px;">
+                  <ul>
+                    <li class="about-us active">
+                      <a href="welcome.html">Welcome</a><i class="ss-icon ss-plus"></i>
+					  <nav class="secondary-nav">
+		                <ul class="main-link-container">
+			                <li>
+					            <a href="javascript:void(0)" data-target="welcome_section" class="mainjump">Welcome </a>
+				            </li>
+			                <li>
+                                <a href="javascript:void(0)" data-target="OurMission_section" class="mainjump">Our Mission</a>
+                            </li>
+							<li>
+                                <a href="javascript:void(0)" data-target="ARewardingBusiness_Section" class="mainjump">A Rewarding Business</a>
+                            </li>
+							<li>
+                                <a href="javascript:void(0)" class="mainjump" data-target="WhoWeAreLookingFor_section">Who We're Looking For</a>
+                            </li>
+							<li>
+                                <a href="javascript:void(0)" data-target="StrengthInNumbers_section" class="mainjump">Strength In Numbers</a>
+                            </li>						
+						</ul>
+	                </nav>
+                    </li>
+                    <li class="about-us">
+                      <a href="whytapsnap.html">Why TapSnap?</a>
+                    </li>
+                    <li class="about-us">
+                      <a href="thefundamentals.html">The Fundamentals</a>
+                    </li>
+
+                    <!--<xsl:choose>
+                      <xsl:when test="@RMStatus[.&gt;3]">
+                        <li class="about-us">
+                          <a href="/?s=4&amp;a=91">TapSnap A to Z</a>
+                        </li> 
+                      </xsl:when>
+                      <xsl:otherwise>-->
+                        <li class="about-us">
+                          <a href="#" class="b_color">
+                              TapSnap A to Z <img src="img/lock.png" class="lock" alt="lock" />
+                          </a>
+                        </li>
+                      <!--</xsl:otherwise>
+                    </xsl:choose>-->
+
+                    <!--<xsl:choose>
+                      <xsl:when test="@RMStatus[.&gt;4]">
+                        <li class="about-us">
+                          <a href="/?s=5&amp;a=92">Joining the TapSnap Team</a>
+                        </li>
+                      </xsl:when>
+                      <xsl:otherwise>-->
+                        <li class="about-us">
+                          <a href="#" class="b_color">
+                              Joining the TapSnap Team <img src="img/lock.png" class="lock" alt="lock" />
+                          </a>
+                        </li>
+                      <!--</xsl:otherwise>
+                    </xsl:choose>-->
+                   
+
+                  </ul>
+
+
+                </nav>
+                
+                <div class="clear"></div>
+              </header>
+            </div>
+            <div class="content" id="skip">
+			        <a id="jump01" data-title="Welcome" data-section="welcome_section">&#160;</a>
+              <header class="content-header welcome">
+                <div>
+                  <div class="description">
+                    <h1>Tap. Snap. Share.</</h1>
+                    <h2>Welcome to your TapSnap Discovery Center</h2>
+                    <div class="squiggles"></div>
+                  </div>
+                </div>
+                <nav class="section-nav sticky">
+                  <a href="#" class="accordion-button">Jump to Section:</a>
+                  <ul id="jump-link-container" class="accordion-content">
+                  </ul>
+                </nav>
+                <script type="text/javascript">
+                  $(document).ready(function () {
+                  $('a[id^="jump"]').each(function () {
+                      $('#jump-link-container').append('<li><a href="#' + $(this).attr('id') + '" data-section="' + $(this).data('section') + '">' + $(this).data('title') + '</a></li>');
+                  });
+
+                  $('a[href^="#jump"]').click(function (e) {
+
+                  e.preventDefault();
+                  var target = this.hash;
+                  var sect = $(this).data("section");
+                  $target = $(target);
+                  $('html, body').stop().animate({
+                  'scrollTop': $target.position().top
+                  }, 900, 'swing', function () {
+                  window.location.hash = target;
+                  });
+
+                  });
+
+
+                  /* Mobile Menu Linked Divs */
+
+                  $('a.mainjump').on('click', function (event) {
+                  event.preventDefault();
+                  var target = "#" + $(this).data('target');
+                  $('html, body').animate({
+                  scrollTop: $(target).offset().top
+                  }, 1000);
+                  });
+                  });
+
+</script>
+
+                <div class="clear"></div>
+              </header>
+              
+              <div class="full-width" id="welcome_section" style="margin-top:70px;">
+                <div class="descriptionn extended-description">
+                  <div class="row">
+                    
+                    <div class="two-thirds" style="width:60%;">
+                        <h6>
+                            Thank you for your interest in TapSnap’s Franchise.
+                        </h6>
+                        <p>
+                            Your Discovery Center is a step-by-step guide on getting to know what makes TapSnap such a fun and rewarding business opportunity.
+                        </p>
+                        <p>
+                            We’ve arranged this Discovery Center into five sections. We welcome you to check out the first three at your own pace. Our discovery process is one of education and mutual evaluation. By following our path, step by step, you get to know our franchise, our team, and our winning formula to help determine if TapSnap is right for you. Our process usually takes 30 - 45 days.
+                        </p>
+                        <p>
+                            If you want to learn more about our Franchise Opportunity, contact your Franchise Development Coordinator for a discovery call to unlock more in-depth information about becoming a TapSnap franchise owner.
+                        </p>
+                        <p>
+                            Enjoy!
+                        </p>
+                    </div>
+                      <div class="one-third" style="width:25%;">
+                          <img alt="" src="img/welcome1.jpg" class="welcome1 polaroid" />
+                          <div class="welcome2">
+                              <img alt="" src="img/welcome2.jpg" class="polaroid"/>
+                              <p style="font-weight:bold;">Help us get to know you better by completing our Confidential Profile</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="divider">
+                </div>
+                  <a id="jump02" data-title="Our Mission" data-section="OurMission_section">&#160;</a>
+                <div class="clear">
+                </div>
+              </div>
+              
+              <div class="full-width" id="OurMission_section">
+                <div class="descriptionn extended-description">
+                    <!--<img src="img/ourmission.png" />-->
+                  <div class="clearfix">
+                  </div>
+                  <br />
+                  <h5>
+                      Making entrepreneurial dreams come true
+                  </h5>
+                  <p>
+                      For over a decade our team has helped entrepreneurs launch and grow successful businesses in a variety of industries. Along the way we’ve learned what aspiring entrepreneurs need to succeed with their new ventures.
+                  </p>
+                  <p>
+                      Our latest innovation in this successful line of business systems is TapSnap – a unique and fun photo and social media platform for events of all sizes. 
+                  </p>
+                    <p>
+                        We have an invested interest in helping our franchisees grow and bring TapSnap’s distinctive brand of event entertainment to everyone, one smile at a time.
+                    </p>
+                  <div class="clearfix">
+                  </div>
+                  
+                  <div class="clearfix">
+                  </div>
+                  <div class="divider">
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+              </div>
+              <a id="jump03" data-title="A Rewarding Business" data-section="ARewardingBusiness_Section">&#160;</a>
+                <div class="full-width" id="ARewardingBusiness_Section">
+                    <div class="descriptionn extended-description">
+                        <div class="row">
+                            <div class="one-third">
+                                <img alt="" src="img/rewardingbusiness.png" class="polaroid tilted" style="margin-top:65px;" />
+                                <div class="clearfix"></div>
+                                
+                            </div>
+                            <div class="two-thirds-last">
+                                <h5>
+                                    Love what you do
+                                </h5>
+                                <p>
+                                    How would you like to make complementary income by bringing joy into people’s lives? So much more than a simple photo booth, TapSnap is always the life of any party. Guests naturally gravitate towards its interactive touch screen and fun features.
+                                </p>
+                                <p>
+                                    Imagine owning a business that puts smiles on people’s faces, that’s backed by one
+                                    of the world’s most recognized and loved brands, and that values the importance
+                                    of having fun, giving back, and getting involved in the community.
+                                </p>
+                                <p>
+                                    Don’t believe us? <a href="https://www.youtube.com/watch?v=4oK9l0UCzZM&index=10&list=PL9hx7gE1FvA8I0Dez6plJBSzYqUI-Ur35">Check out this video</a> of “Happy” Andi Grupa, a Missouri franchisee, on how fun and rewarding a TapSnap event can be.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider">
+                    </div>
+                </div>
+                <a id="jump04" data-title="Who We're Looking For" data-section="WhoWeAreLookingFor_section">&#160;</a>
+              <div class="full-width">
+                <div class="descriptionn extended-description">
+                    
+                    
+                  <h5>
+                      We’re looking for the right fit
+                  </h5>
+
+                  <p>
+                      We think big and we hope you do too. We want franchisee partners with the drive and passion to make TapSnap the number one name in event entertainment. In return, we’ll be there for you every step of the way.
+                  </p>
+                    <p>We think we’ll be a good match if you…</p>
+                  <div class="clearfix">
+                  </div>
+                  <div class="row">
+                    <div class="two-thirds" style="width:60%;">
+                      <ul class="list_star">
+                        <li>Like people and enjoy the excitement of social events and parties.</li>
+                        <li>
+                            Are a disciplined self-starter with a high level of personal integrity who prides themselves on delivering the absolute best in customer service.
+                        </li>
+                        <li>Possess strong interpersonal and communication skills backed by the desire to build and maintain long-term client relationships.</li>
+                        <li>Demonstrate a strong circle of influence in the franchise territory.</li>
+                        <li>
+                            Have proven organizational and scheduling abilities, as well as the ability to adhere to the guidelines and standards of the TapSnap franchise system.
+                        </li>
+                        <li>Can get started within 60 days.</li>
+                        <li>Have the capital to invest in the business, and the financial support to see the business through the start-up phase.</li>
+                      </ul>
+                    </div>
+                    <div class="one-third-last" style="width:35%;">
+                      <img alt="" src="img/lookingfor.jpg" class="polaroid tilted"/>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="divider">
+                </div>
+                <div class="clear">
+                </div>
+              </div>
+              <a id="jump05" data-title="Strength In Numbers" data-section="StrengthInNumbers_section">&#160;</a>
+                <div class="full-width" id="StrengthInNumbers_section">
+                    <div class="descriptionn extended-description">
+                        <div class="row">
+                            <div class="one-third">
+                                <img alt="" src="img/staff.jpg" class="polaroid tilted" />
+                            </div>
+
+                            <div class="two-thirds-last">
+                                <h5>
+                                    You’ll have a team behind you
+                                </h5>
+                                <p>
+                                    Franchising is the perfect route if you have the entrepreneurial spirit but would like to benefit from someone else’s proven experience.
+                                </p>
+                                <p>
+                                    TapSnap has over 140 franchisees across North America, so we’ve seen what works and what doesn’t. We’ll give you the tools you’ll need to successfully build your business: procedures, best practices, sales and product training, marketing support, and software – all designed to make your business efficient and profitable. 
+                                </p>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+              
+            </div>
+
+            <!--
+            <div class="cloud-1"></div>
+            <div class="cloud-2"></div>
+            <div class="cloud-3"></div>
+            <div class="cloud-4"></div>
+            <div class="cloud-5"></div>
+            <div class="cloud-6"></div>
+            <div class="cloud-7"></div>
+            -->
+
+            <!--<div class="cloudd one desktop"></div>
+            <div class="cloudd two desktop"></div>
+            <div class="cloudd three desktop"></div>
+            <div class="cloudd four desktop"></div>
+            <div class="cloudd five desktop"></div>
+            <div class="cloudd six desktop"></div>
+            <div class="cloudd seven desktop"></div>
+            <div class="cloudd eight desktop"></div>
+            <div class="cloudd nine desktop"></div>
+            <div class="cloudd ten desktop"></div>
+            <div class="cloudd eleven desktop"></div>
+            <div class="cloudd twelve desktop"></div>
+            <div class="cloudd thirteen desktop"></div>
+            <div class="cloudd fourteen desktop"></div>
+            <div class="cloudd fifteen desktop"></div>
+            <div class="cloudd sixteen desktop"></div>-->
+
+            <!--<div class="contentInClouds"></div>-->
+            <!--<div class="hills-wrap footer-hills extended-hills">
+              <div class="hills">
+                <div class="hill-1">
+                </div>
+                <div class="hill-2">
+                </div>
+                <div class="hill-3">
+                </div>
+                <div class="cows">
+                </div>
+                <div class="cow">
+                </div>
+              </div>
+            </div>-->
+            <!--<div class="contentBelowCows" id="skip"></div>-->
+
+             
+
+
+            <!--<footer class="page-footer" role="contentinfo" style="background:none;background-image:url(img/bg-gallery.jpg);height:105px;">
+
+                <div class="wrap">
+
+
+                    <div class="footer-links" style="background:none;">
+                        <ul class="text-center" style="margin-left:75px;">
+                            <li class="contact-us">
+                                <a href="" style="font-size:18px;">Welcome</a>
+                            </li>
+                            <li class="franchise">
+                                <a href="" style="font-size:18px;">Why TapSnap?</a>
+                            </li>
+                            <li class="press">
+                                <a href="" style="font-size:18px;">The Fundamentals</a>
+                            </li>
+                            <li class="jobs">
+                                <a href="" style="font-size:18px;">TapSnap A to Z <img src="img/locked-white.png" style="position:relative;bottom:20px;left:125px;" class="lock" alt="lock" /></a>
+                            </li>
+                            <li>
+                                <a href="" style="font-size:18px;">Joining the TapSnap Team <img src="img/locked-white.png" style="position:relative;bottom:20px;left:216px;" class="lock" alt="lock" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              
+            </footer>-->
+            
+          </div>
+             
+              
+              
+          <script type="text/javascript" src="js/plugins.min.js "></script>
+          <script type="text/javascript" src="js/script.js"></script>
+          <script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+<!--          <script type="text/javascript" src="js/bj.validate.js"></script>-->
+          <script type="text/javascript" src="js/search-helper.js"></script>
+          <script src="js/jquery.ubaplayer.js" type="text/javascript"></script>
+<!--
+          <script type="text/javascript">
+           
+            $(function () {
+            $("#ubaplayer").ubaPlayer({
+            codecs: [{ name: "MP3", codec: 'audio/mpeg;'}]
+            });
+            });
+          </script>
+-->
+
+            <script>
+                $(document).ready(function () {
+                    function welcome() {
+                    $('.welcome1').delay(5000).animate({
+                        opacity: 0
+                    }, 2000);
+                    $('.welcome1').delay(5000).animate({
+                        opacity: 1
+                    }, 2000);
+                    }
+                    setInterval(function () {
+                        welcome()
+                    }, 5000);
+                });
+            </script>
+
+
+
+        </div>
+        <!-- - JS for Edit Mode -->
+        <!-- site-specific js/body -->
+        <!-- END:site-specific js/body -->
+        <!-- parent's javascript (BODY) -->
+        <!-- END:parent's javascript (BODY) -->
+        <!-- page-specific javascript (BODY) -->
+        <!-- END:page-specific javascript (BODY) -->
+      </body>
+    </html>
+  <!--</xsl:template>
+</xsl:stylesheet>-->

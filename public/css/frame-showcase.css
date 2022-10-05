@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'AmaticaSC-Regular';
+    src: url('../fonts/AmaticaSC-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('../fonts/Quicksand-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
+}
+html {
+    height:100%;
+}
+body {
+    font-family: 'Quicksand-Regular';
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    margin:0;
+    background:#F7F5E6;
+    background-size:cover;
+}
+/*
+.body-overlay {
+    background:rgba(86, 63, 70,0.95);
+    z-index:-1;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+*/
+
+.container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 800px;
+}
+.showcase {
+/*
+    position:absolute;
+    height:100%;
+    width:100%;
+    bottom:0;
+    right:0;
+*/
+}
+
+
+
+
+
+
+h2 {
+    margin-bottom:10px;
+}
+
+

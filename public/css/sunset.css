@@ -1,0 +1,44 @@
+body {
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Quicksand-Regular';
+    height: 100%;
+    width: 100%;
+}
+
+.sunset {
+    position: absolute;
+/*    left: -90%;*/
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    z-index: 60;
+    background: -moz-linear-gradient(top, #0082c9 1%, #3090ff 29%, #f7ae5b 71%, #dee29c 100%);
+    background: -webkit-linear-gradient(top, #0082c9 1%, #3090ff 29%, #f78159 71%, #dee29c 100%);
+    background: linear-gradient(to bottom, #442E54 40%, #E65655 70%, #FF7038 90%, #FDC83E 95%);
+    background: -webkit-radial-gradient(#FDC83E 5%, #FF7038 10%, #de2121 20%, #51293d 60%, #29293d 70%);
+}
+.sunset .stars-top {
+    position:absolute;
+    top:0;
+    right:0;
+    width:100%;
+    height:30%
+}
+.sunset .stars-middle {
+    position:absolute;
+    bottom:50%;
+    right:-15%;
+    width:71%;
+    height:20%;
+    transform:skew(60deg);
+}
+.sunset .stars-bottom {
+    position:absolute;
+    bottom:0;
+    right:-35%;
+    width:70%;
+    height:50%;
+    transform:skew(45deg);
+}

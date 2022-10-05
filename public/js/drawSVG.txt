@@ -1,0 +1,6 @@
+It’s just fun. I enjoy getting up in the morning and working out in my head how to build a particular feature or make something work a certain way.
+
+
+I guess I just really enjoy working on the frontend, on the part of the application that the end user will directly interact with in the end.
+
+Even a newbie javascript programmer is already using both sides of their brain. 
